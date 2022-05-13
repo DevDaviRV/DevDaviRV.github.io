@@ -1,0 +1,184 @@
+/* font-family: 'VT323', monospace; titulo */
+/* font-family: 'Oxygen Mono', monospace; escrito */
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/02/12/40/technology-5881448_960_720.jpg);
+    width: 100%;
+    gap: 100px;
+    font-family: 'VT323', monospace;
+    justify-content: space-evenly;
+    font-weight: 800;
+    color: white;
+    text-shadow: 2px 3px 3px rgb(255, 0, 242);
+    font-size: 18px;
+    flex-direction: row;
+}
+
+.icones {
+    padding-top: 5px;
+}
+
+.login1 {
+    background-image: url(https://th.bing.com/th/id/R.4b21bfc937584e66da75e65823836110?rik=nuWJGDg6HcD5VQ&riu=http%3a%2f%2ffullhdwall.com%2fwp-content%2fuploads%2f2018%2f07%2fFree-Nightfall-Wallpaper.jpg&ehk=SYHZBoYAVz5duNIICd44ci8WsO9kx3JLeNV7Cbhqv%2bI%3d&risl=&pid=ImgRaw&r=0);
+    width: 100%;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-esquerdo {
+    font-family: 'VT323', monospace;
+    text-shadow: rgb(247, 59, 162) 2px 2px 3px;
+    text-transform: uppercase;
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    
+
+}
+
+.login-esquerdo>h1 {
+    color: #00ffea;
+    font-size: 2vw;
+}
+
+.imagem-login {
+    width: 35vw;
+    height: 30vw;
+}
+
+
+.login-direito {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    opacity: 95%;
+}
+
+.area-de-login {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 20px 40px;
+    background: #f260ff;
+    border-radius: 15px;
+    font-family: 'VT323', monospace;
+    box-shadow: 10px 10px 25px #5000fc;
+    letter-spacing: 3px;
+    border-style: double;
+    border-width: 5px;
+    border-color: #5000fc;
+}
+
+.area-de-login:hover {
+    background-color: #330790;
+    color: whitesmoke;
+    border-color: #EF32FF;
+    box-shadow: 10px 10px 25px rgb(247, 59, 162) ;
+
+}
+
+.area-de-login>h1 {
+    margin: 0;
+    color: #44EBE1;
+    font-weight: 800;
+    
+}
+
+.text-area {
+    width: 100%;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oxygen Mono', monospace;
+    font-weight: 800;
+    text-shadow: #330790;
+    margin: 10px 0px;
+}
+
+.text-area>input:hover {
+    color: aliceblue;
+    font-weight: 500;
+
+}
+
+.text-area>input {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    background: #4A00E7 52%;
+    font-size: 12pt;
+    outline-color: #EF32FF;
+    box-sizing: border-box;
+}
+
+.text-area>input::placeholder {
+    color: #ddd;
+    font-weight: 200;
+}
+
+.text-area>label {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-shadow: 2px 2px 3px black;
+    display: block;
+}
+
+.text-area>label:hover {
+    color: white;
+}
+
+.botao-login {
+    padding: 7px;
+    margin: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    outline-style: double;
+    outline-width: 3,5px;
+    outline-color: #32f8ff;
+    letter-spacing: 2px;
+    color: #EF32FF;
+    background: #4A00E7;
+    text-transform: uppercase;
+    box-shadow: 3px 10px 30px -10px #4A00E7;
+
+}
+
+.botao-login:hover {
+    background: #EF32FF;
+    cursor: pointer;
+    color: #4A00E7;
+    box-shadow: 3px 10px 30px -10px #EF32FF;
+    outline-color:#32f8ff
+}
+
+.rodape{
+    display: inline-block;
+    text-align: center;
+    font-weight: 800;
+    font-family: 'Oxygen Mono', monospace;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    background-image: url(https://cdn.pixabay.com/photo/2021/01/02/12/40/technology-5881448_960_720.jpg);
+    width: 100%;
+}
